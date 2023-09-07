@@ -1,0 +1,384 @@
+/*--NAME AND ID: RYM BENSALEM, 40237684
+    COURSE: SOEN 287 
+    SECTION: W 
+    WEBSITE: LOVELY COMPANION 
+    CSS --*/
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-color: mintcream;
+    line-height: 1;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    color: cornflowerblue;
+    text-align: center;
+    background-color: rgba(100, 148, 237, 0.1);
+    padding: 1%;
+    border: 2px solid cornflowerblue;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    box-sizing: border-box;
+    height: 60px;
+} 
+
+.header img {
+    width: 70px;
+}
+
+.content {
+    margin: 5px;
+    display: flex;
+}
+
+h3 {
+    color: cornflowerblue;
+    position: absolute;
+    top: 70px;
+    left: 20px;
+}
+
+/*----- SIDE MENU ----- */
+.aside {
+    position: fixed;
+    right: 0;
+    top: 0px;
+    bottom: 0;
+    width: 9%;
+    background-color: cornflowerblue;
+}
+
+.aside  ul  {
+    list-style-type: none;
+    display: inline;
+}
+
+.aside  ul  li  a {
+    color: mintcream;
+    font-weight: 700;
+    padding: 13px;
+    border-bottom: 2px solid mintcream;
+    font-size: 13px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    box-sizing: border-box;
+}
+
+.aside ul li a:hover {
+    background-color: mintcream;
+    color: cornflowerblue;
+}
+
+/* ----- FOOTER -----*/
+.footer {
+    color: mintcream;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    padding: 5px;
+    background-color: midnightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerbutton, .footerbutton2 {
+    background-color: cornflowerblue;
+    border: none;
+    color: mintcream;
+}
+
+.footerbutton:hover, .footerbutton2:hover {
+    background-color: mintcream;
+    border: none;
+    color: midnightblue;
+    cursor: pointer;
+}
+
+.footerbutton2 {
+    margin-left: 10px;
+}
+
+/* ------ HOME PAGE ----- */
+
+#homeupper {
+    display: flex;
+    margin-right: 100px;
+}
+
+#homeupper img:hover {
+    box-shadow: 10px 10px 8px cornflowerblue;
+}
+
+#homeupper p {
+    margin-top: 80px;
+    margin-left: 100px;
+    margin-right: 10px;
+    font-size: 120px;
+    font-weight: 900;
+    color: midnightblue;
+    line-height: 120%;
+}
+
+#homeupper img {
+    margin: 100px;
+    margin-left: 10px;
+    height: 50vh;
+    border-radius: 50%;
+    float: right;
+}
+
+#homebottom {
+    border: 3px solid cornflowerblue;
+    margin: 5%;
+    padding: 2%;
+    width: 80vw;
+    border-left: none;
+    border-right: none;
+    font-size: 4vh;
+    line-height: 120%;
+    text-align: center;
+    color: cornflowerblue;
+}
+
+/*----- Find a Dog/Cat (form1) and Have a Pet to Give Away (form2) page ----- */
+
+#form1, #form2 {
+    color: midnightblue;
+    position: absolute;
+    top: 10%;
+    left: 25vw;
+    box-sizing: border-box;
+    font-size: 20px;
+    padding: 30px;
+    padding-bottom: 100px;
+    margin: 30px;
+    border-top: 10px double cornflowerblue;
+    background-color: rgba(100, 148, 237, 0.1);
+}
+
+#form1 h3, #form2 h3 {
+    position: relative;
+    top: 0;
+    left: 0;
+    border: none;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+#form1  p, #form2  p {
+    color: cornflowerblue;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 2px;
+    border: 1px solid cornflowerblue;
+    border-right: none;
+    border-left: none;
+    padding: 2px;
+    width: fit-content;
+    
+}
+
+#submit, #reset{
+    background-color: cornflowerblue;
+    color: mintcream;
+    font-size: 20px;
+    border: none;
+    border-radius: 12px;
+    padding: 10px;
+    margin: 20px;
+}
+
+#submit:hover, #reset:hover, #browseallpets {
+    background-color: midnightblue;
+    cursor: pointer;
+}
+
+#browseallpets{
+    background-color: cornflowerblue;
+    color: mintcream;
+    font-size: 20px;
+    border: none;
+    border-radius: 12px;
+    padding: 10px;
+    margin: 20px;
+    margin-top: -20%;
+}
+
+/*----- Contact us page ----- */
+.other {
+    font-weight: 700;
+    color: cornflowerblue;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    box-sizing: border-box;
+    font-size: 20px;
+    border: 6px double cornflowerblue;
+    padding: 30px;
+    background-color: rgba(100, 148, 237, 0.1);
+}
+/*----- Browse Available Pets page ----- */
+#availablePets {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+#availablePets img {
+    border-radius: 30%;
+    width: 25vw;
+}
+#availablePets img:hover {
+    box-shadow: 5px 5px 8px cornflowerblue;
+}
+#availablePets p {
+    text-align: center;
+    color: midnightblue;
+    line-height: 2em;
+}
+#availablePets button {
+    background-color: cornflowerblue;
+    color: mintcream;
+    font-size: 15px;
+    border: none;
+    border-radius: 50%;
+    margin-top: 10px;
+    padding: 15px;
+}
+#availablePets button:hover {
+    background-color: midnightblue;
+    cursor: pointer;
+}
+#maika, #cooper, #lola, #oscar, #angela, #felix {
+    margin: 60px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    background-color: rgba(100, 148, 237, 0.1);
+    padding: 20px;
+}
+
+/*----- Dog Care and Cat Care pages ----- */
+
+.dogcatcare {
+    display: flex;
+}
+
+#catcareimg, #dogcareimg {
+    height: 50vh;
+    margin: 130px;
+    margin-top: 100px;
+    border-radius: 30%;
+}
+
+#catcareimg{
+    margin-left: 30px;
+}
+
+#dogcareimg{
+    margin-right: 30px;
+}
+
+#dogcareimg:hover, #catcareimg:hover {
+    box-shadow: 10px 10px 8px cornflowerblue;
+}
+
+#dogcarecontent, #catcarecontent {
+    color: midnightblue;
+    font-weight: 500;
+    width: 35%;
+    margin: 130px;
+    margin-top: 100px;
+    font-size: 30px;
+    line-height: 160%;
+}
+
+#dogcarecontent {
+    margin-left: 30px;
+}
+
+#catcarecontent {
+    margin-right: 30px;
+}
+
+#dogcarecontent a, #catcarecontent a {
+    font-size: 20px;
+}
+
+#dogcarecontent a, #dogcarecontent a:visited, #catcarecontent a, #catcarecontent a:visited  {
+    text-decoration: none;
+    color: cornflowerblue;
+    padding: 2px;
+}
+
+#dogcarecontent a:hover, #catcarecontent a:hover {
+    color: mintcream;
+    background-color:  midnightblue;
+}
+
+.dogcatcarecontenttitle {
+    color: cornflowerblue;
+    font-weight: 900;
+    font-size: 200%;
+}
+
+/*----- Create an account and login pages ----- */
+#form3, #form4{
+    width: 30%;
+    position: absolute;
+    top: 10%;
+    left: 30vw;
+    color: midnightblue;
+    box-sizing: border-box;
+    font-size: 20px;
+    padding: 30px;
+    margin: 30px;
+    border-top: 10px double cornflowerblue;
+    background-color: rgba(100, 148, 237, 0.1);
+}
+
+#usernamespecification, #passwordspecification{
+    color: rgb(57, 104, 193);
+    font-size: 13px;
+    line-height: 130%;
+}
+#username, #password{
+    width: 100%;
+}
+#form3 h3, #form4 h3 {
+    position: relative;
+    top: 0;
+    left: 0;
+    border: none;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+#formInvalid, #logininvalid{
+    width: 10%;
+    height: 30%;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    font-size: 12px;
+    color: red;
+}
+#logininvalid{
+    font-size: 15px;
+}
+
+#displayUsername{
+    position: relative;
+    left: 10%;
+    color: midnightblue;
+    font-size: 70%;
+    display: inline;
+}
