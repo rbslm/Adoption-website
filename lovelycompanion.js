@@ -1,8 +1,3 @@
-/*--NAME AND ID: RYM BENSALEM, 40237684
-    COURSE: SOEN 287 
-    SECTION: W 
-    WEBSITE: LOVELY COMPANION 
-    JAVASCRIPT --*/
 
 /*------- ALL PAGES ------- */
 /*------- date and time (header) ------- */
